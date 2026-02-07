@@ -32,7 +32,7 @@ let bottomHurdleImg;
 //physics
 let velocityX = -2; //hurdles moving left speed
 let velocityY = 0; //character jump speed
-let gravity = 0.4;
+let gravity = 0.1 ;
 
 let gameOver = false;
 let score = 0;
@@ -55,10 +55,10 @@ window.onload = function() {
     }
 
     topHurdleImg = new Image();
-    topHurdleImg.src = "static/topHurdle.png";
+    topHurdleImg.src = "/mini-game/static/topHurdle.png";
 
     bottomHurdleImg = new Image();
-    bottomHurdleImg.src = "static/bottomHurdle.png";
+    bottomHurdleImg.src = "/mini-game/static/bottomHurdle.png";
     requestAnimationFrame(update);
     setInterval(placeHurdles, 1500); //every 1.5 seconds
     document.addEventListener("keydown", moveCharacter);
@@ -67,6 +67,7 @@ window.onload = function() {
 function update() {
     requestAnimationFrame(update);
     if (gameOver) {
+        window.location.href = 'gameover.html';
         return;
     }
     context.clearRect(0, 0, board.width, board.height);
@@ -111,7 +112,7 @@ function update() {
     }
 }
 
-function placePipes() {
+function placeHurdles() {
     if (gameOver) {
         return;
     }
