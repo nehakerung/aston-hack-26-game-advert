@@ -5,7 +5,8 @@ body {
 
 #board {
     /* background-color: skyblue; */
-    background-image: url("/mini-game/static/background.png");
+    /*background-image: url("/mini-game/static/background.png");*/
+    background-image: url("/mini-game/static/OceanBackgroundFlappyBird.png");
 }
 
 div-game-screen {
