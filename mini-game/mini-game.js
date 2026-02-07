@@ -1,8 +1,8 @@
 
 //board
 let board;
-let boardWidth = 360;
-let boardHeight = 640;
+let boardWidth = window.innerWidth;
+let boardHeight = window.innerHeight;
 let context;
 
 //character
@@ -32,7 +32,7 @@ let bottomHurdleImg;
 //physics
 let velocityX = -2; //hurdles moving left speed
 let velocityY = 0; //character jump speed
-let gravity = 0.1 ;
+let gravity = 0.3 ;
 
 let gameOver = false;
 let score = 0;

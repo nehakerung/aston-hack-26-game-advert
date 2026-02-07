@@ -7,3 +7,8 @@ body {
     /* background-color: skyblue; */
     background-image: url("/mini-game/static/background.png");
 }
+
+div-game-screen {
+    display: flex;
+    justify-content: center;
+}
