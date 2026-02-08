@@ -4,30 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YouTube Ad</title>
-    <style>
-        body {
-            margin: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #000;
-        }
-        iframe {
-            width: 80%;
-            height: 80%;
-            border: none;
-        }
-    </style>
+    <link rel="stylesheet" href="stylesheet.css">
 </head>
 <body>
-    <iframe
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/t4tO5htFvpc?autoplay=1"  <!-- Add ?autoplay=1 to start video -->
-        title="YouTube video player"
-        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen>
-    </iframe>
+
+    <div class="video-container">
+        <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/t4tO5htFvpc?autoplay=1"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+            style="border: none;">
+        </iframe>
+
+    </div>
+        <div class="game-over-content">
+            <h1>Mini Game Time</h1>
+<div class="buttonBlock">
+    <button id="playButton" onclick="window.location.href='/mini-game/index.html'">Play</button>
+</div>
+    </div>
 </body>
 </html>
