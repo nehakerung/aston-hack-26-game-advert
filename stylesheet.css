@@ -10,16 +10,14 @@
 html, body {
     height: 100%;
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family:  Arial, sans-serif;
     text-align: center;
     overflow: hidden;
 }
 
-body {
-    background: linear-gradient(135deg, #667eea 0%, aqua 100%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+#board {
+    /* background-color: skyblue; */
+    background-image: url("mini-game/static/OceanBackgroundFlappyBird.jpg");
 }
 
 /* --------------------------------------------------
