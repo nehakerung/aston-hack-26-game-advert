@@ -1,8 +1,8 @@
 
 //board
 let board;
-let boardWidth = window.innerWidth;
-let boardHeight = window.innerHeight;
+let boardWidth = window.innerWidth * 0.8;
+let boardHeight = window.innerHeight * 0.8;
 let context;
 
 //character
@@ -51,7 +51,7 @@ window.onload = function() {
     characterImg = new Image();
     characterImg.src = "/mini-game/static/character.png";
     characterImg.onload = function() {
-        context.drawImage(characterImg, character.x, character.y, character.width, character.height);
+    context.drawImage(characterImg, character.x, character.y, character.width, character.height);
     }
 
     topHurdleImg = new Image();
