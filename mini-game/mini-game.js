@@ -75,7 +75,7 @@ function update() {
 
         // Redirect to the YouTube ad page after 2-3 seconds
         setTimeout(function() {
-            window.location.href = '/gameover.html';  // Change this to your actual ad video page
+            window.location.href = '/mini-game/gameover.html';  // Change this to your actual ad video page
         }, 2000); // Wait for 2 seconds before redirecting (you can adjust this delay)
         
         return; // Prevent further updates once the game is over
