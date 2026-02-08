@@ -29,6 +29,7 @@ This playable advertisement transforms passive viewing into active participation
 - [ ] Live chat room for players
 - [ ] Social media sharing integration
 - [ ] Analytics dashboard for engagement metrics
+- [ ] Put a delay on the character start
 
 ## Demo
 

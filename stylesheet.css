@@ -18,7 +18,7 @@ html, body {
 
 #board {
     /* background-color: skyblue; */
-    background-image: url("mini-game/static/OceanBackgroundFlappyBird.jpg");
+    background-image: url("mini-game/static/background.jpg");
      height: 100%;  /* Make it fill the entire viewport */
         /* Ensure the background image is scaled properly */
          background-size: cover;   /* Ensures the background stretches to cover the entire area */
@@ -40,7 +40,7 @@ html, body {
 
 
 #board {
-    background-image: url("mini-game/static/OceanBackgroundFlappyBird.jpg");
+    background-image: url("mini-game/static/background.jpg");
     background-size: cover;
     background-position: center;
     border-radius: 10px;
