@@ -1,12 +1,20 @@
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
+    margin: 0;
+    padding: 0;
+    height: 100%;  /* Ensure body takes full height */
 }
 
 #board {
-    /* background-color: skyblue; */
-    /*background-image: url("/mini-game/static/background.png");*/
-    background-image: url("/mini-game/static/OceanBackgroundFlappyBird.png");
+    width: 100%;
+    height: 100%;  /* Make it fill the entire viewport */
+    
+    /* Ensure the background image is scaled properly */
+    background-image: url("mini-game/static/OceanBackgroundFlappyBird.jpg");
+    background-size: cover;   /* Ensures the background stretches to cover the entire area */
+    background-position: center; /* Keeps the background centered */
+    background-repeat: no-repeat;  /* Prevents the image from repeating */
 }
 
 div-game-screen {
