@@ -25,7 +25,7 @@ let character = {
 
 //bubbles
 let hurdleArray = [];
-let hurdleWidth = 300; //width/height ratio = 384/3072 = 1/8
+let hurdleWidth = 100; //width/height ratio = 384/3072 = 1/8
 let hurdleHeight = 512;
 let hurdleX = boardWidth;
 let hurdleY = 0;
