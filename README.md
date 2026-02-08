@@ -6,6 +6,9 @@ An interactive mini-game designed to boost audience engagement with advertising 
 
 This playable advertisement transforms passive viewing into active participation. The game is fully customizable to match any campaign theme - for example, a Waitrose space-themed ad would feature a space-themed game.
 
+![screenshot of home](documents/home.png)
+
+
 ## Technology Stack
 
 - HTML5
